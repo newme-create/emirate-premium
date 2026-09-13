@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Agences au Cameroun - Yaoundé & Douala | Emirates Premium Cargo</title>
+  <meta name="description" content="Découvrez nos agences physiques à Yaoundé et Douala. Proches de vous pour la réception, la livraison et le retrait de vos colis venus de Chine.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar-header" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-monogram">
+          <svg viewBox="0 0 100 100" class="ep-logo-svg">
+            <circle cx="50" cy="50" r="46" fill="none" stroke="#C89736" stroke-width="3"/>
+            <text x="35" y="62" font-family="'Playfair Display', serif" font-weight="700" font-size="42" fill="#C89736">E</text>
+            <text x="52" y="66" font-family="'Playfair Display', serif" font-weight="700" font-size="42" fill="#0B1B36">P</text>
+          </svg>
+        </div>
+        <div class="logo-text-group">
+          <span class="brand-title">EMIRATES PREMIUM</span>
+          <span class="brand-subtitle">INTERNATIONAL CARGO HUB • CHINA • AFRICA</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+          <li class="nav-item dropdown">
+            <a href="services.html" class="nav-link">Services <svg class="dropdown-icon" viewBox="0 0 24 24" width="14" height="14"><path fill="none" stroke="currentColor" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+            <div class="dropdown-menu">
+              <a href="services.html#fret-aerien">Fret aérien</a>
+              <a href="services.html#fret-maritime">Fret maritime</a>
+              <a href="services.html#sourcing">Sourcing Chine</a>
+              <a href="services.html#automobile">Automobile Premium</a>
+              <a href="services.html#trucks">Trucks & Equipment</a>
+              <a href="services.html#emballage">Emballage sécurisé</a>
+              <a href="services.html#porte-a-porte">Porte-à-porte</a>
+              <a href="services.html#consulting">Money Exchange & Consulting</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="comment-ca-marche.html" class="nav-link">Comment ça marche</a></li>
+          <li class="nav-item"><a href="tarifs.html" class="nav-link">Tarifs</a></li>
+          <li class="nav-item"><a href="suivi.html" class="nav-link">Suivi de colis</a></li>
+          <li class="nav-item active dropdown">
+            <a href="#" class="nav-link">Nos agences <svg class="dropdown-icon" viewBox="0 0 24 24" width="14" height="14"><path fill="none" stroke="currentColor" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+            <div class="dropdown-menu">
+              <a href="adresse-chine.html">🇨🇳 Chine (Hub Guangzhou)</a>
+              <a href="agences.html">🇨🇲 Cameroun (Yaoundé & Douala)</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-navy btn-espace" id="btnConnexion" onclick="openAuthModal('login')">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          <span>Connexion</span>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO BANNER -->
+  <section class="page-hero-banner banner-agences">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Accueil</a> <span class="sep">&gt;</span> <span>Nos agences</span>
+      </div>
+      <h1 class="page-title">Nos agences au <span class="text-gold-gradient">Cameroun</span></h1>
+      <p class="page-subtitle">
+        Proches de vous pour mieux vous servir. Emirates Premium dispose de deux agences au Cameroun pour faciliter la réception, la livraison et le retrait de vos colis.
+      </p>
+      <div class="page-hero-pills">
+        <div class="hero-pill-item">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Réception de vos colis</span>
+        </div>
+        <div class="hero-pill-item">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          <span>Livraison rapide à domicile</span>
+        </div>
+        <div class="hero-pill-item">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+          <span>Retrait en agence possible</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENCIES SECTION -->
+  <section class="services-section">
+    <div class="container">
+      
+      <div class="agencies-grid">
+        
+        <!-- Agence 1: Yaoundé -->
+        <div class="agency-card">
+          <div class="agency-media">
+            <img src="assets/images/service_air.jpg" alt="Agence de Yaoundé">
+            <span class="agency-tag">📍 Agence de Yaoundé</span>
+          </div>
+          <div class="agency-body">
+            <h3 class="agency-title">Yaoundé — Siège social</h3>
+            <p class="agency-subtitle">Notre agence principale au Cameroun</p>
+            
+            <p style="font-size: 0.88rem; margin-bottom: 12px; color: var(--color-gray-800);">
+              📍 <strong>Adresse :</strong> Avenue Charles de Gaulle, Immeuble Emirates Premium, BP 1234, Yaoundé, Cameroun
+            </p>
+            <p style="font-size: 0.88rem; margin-bottom: 12px;">
+              📞 <strong>Téléphones :</strong><br>
+              <a href="tel:+237641196871" style="color: var(--color-navy); font-weight: 700;">+237 6 41 19 68 71</a> / <a href="tel:+237620285079" style="color: var(--color-navy); font-weight: 700;">+237 6 20 28 50 79</a>
+            </p>
+            <p style="font-size: 0.88rem; margin-bottom: 16px;">
+              ✉️ <strong>Email :</strong> <a href="mailto:yaounde@emiratespremium.com" style="color: var(--color-gold); font-weight: 600;">yaounde@emiratespremium.com</a>
+            </p>
+
+            <div style="background-color: var(--color-gray-100); padding: 12px; border-radius: 8px; font-size: 0.82rem; margin-bottom: 20px;">
+              ⏰ <strong>Horaires d'ouverture :</strong><br>
+              Lundi – Vendredi : 08h – 18h | Samedi : 08h – 14h | Dimanche : Fermé
+            </div>
+
+            <div style="display: flex; gap: 10px;">
+              <a href="https://wa.me/237641196871" target="_blank" class="btn btn-navy btn-sm" style="flex:1;">Contacter sur WhatsApp</a>
+              <button class="btn btn-gold btn-sm" style="flex:1;" onclick="openDevisModal()">Demander une livraison</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Agence 2: Douala -->
+        <div class="agency-card">
+          <div class="agency-media">
+            <img src="assets/images/service_sea.jpg" alt="Agence de Douala">
+            <span class="agency-tag">⚓ Agence de Douala</span>
+          </div>
+          <div class="agency-body">
+            <h3 class="agency-title">Douala — Agence portuaire</h3>
+            <p class="agency-subtitle">Au cœur de la capitale économique</p>
+            
+            <p style="font-size: 0.88rem; margin-bottom: 12px; color: var(--color-gray-800);">
+              📍 <strong>Adresse :</strong> Avenue de la Liberté, Face port autonome, BP 5678, Douala, Cameroun
+            </p>
+            <p style="font-size: 0.88rem; margin-bottom: 12px;">
+              📞 <strong>Téléphone :</strong><br>
+              <a href="tel:+237690937024" style="color: var(--color-navy); font-weight: 700;">+237 6 90 93 70 24</a>
+            </p>
+            <p style="font-size: 0.88rem; margin-bottom: 16px;">
+              ✉️ <strong>Email :</strong> <a href="mailto:douala@emiratespremium.com" style="color: var(--color-gold); font-weight: 600;">douala@emiratespremium.com</a>
+            </p>
+
+            <div style="background-color: var(--color-gray-100); padding: 12px; border-radius: 8px; font-size: 0.82rem; margin-bottom: 20px;">
+              ⏰ <strong>Horaires d'ouverture :</strong><br>
+              Lundi – Vendredi : 08h – 18h | Samedi : 08h – 14h | Dimanche : Fermé
+            </div>
+
+            <div style="display: flex; gap: 10px;">
+              <a href="https://wa.me/237690937024" target="_blank" class="btn btn-navy btn-sm" style="flex:1;">Contacter sur WhatsApp</a>
+              <button class="btn btn-gold btn-sm" style="flex:1;" onclick="openDevisModal()">Demander une livraison</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- COUVERTURE NATIONALE & AFRIQUE CENTRALE -->
+      <div class="hub-card" style="background-color: var(--color-navy); color: var(--color-white); margin-top: 40px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center;">
+          <div>
+            <h3 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--color-white); margin-bottom: 8px;">Une couverture nationale & sous-régionale</h3>
+            <p style="color: rgba(255,255,255,0.8); font-size: 0.95rem; margin-bottom: 20px;">
+              Grâce à nos deux hubs stratégiques à Douala et Yaoundé, nous desservons rapidement tout le Cameroun ainsi que le Tchad, la RCA, le Gabon et le Congo.
+            </p>
+            <ul class="price-features" style="color: #FFF;">
+              <li style="color:#FFF;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#C89736" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Agences physiques ouvertes 6j/7</li>
+              <li style="color:#FFF;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#C89736" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Service de livraison à domicile ou en boutique</li>
+              <li style="color:#FFF;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#C89736" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Envois sécurisés vers le Tchad et la Centrafrique</li>
+            </ul>
+          </div>
+          <div style="text-align: center;">
+            <img src="assets/images/service_trucks.jpg" alt="Transport régional" style="border-radius: 12px; max-height: 240px; width: 100%; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-banner-inner">
+        <div class="cta-left">
+          <div class="cta-package-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#FFFFFF" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <div class="cta-text-group">
+            <h3>Besoin d'aide pour retirer votre colis ?</h3>
+            <p>Contactez directement nos agences de Douala ou Yaoundé.</p>
+          </div>
+        </div>
+        <div class="cta-right">
+          <button class="btn btn-navy btn-cta" onclick="openDevisModal()">Contacter une agence</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-col">
+          <a href="index.html" class="brand-logo footer-logo">
+            <div class="logo-monogram">
+              <svg viewBox="0 0 100 100" class="ep-logo-svg">
+                <circle cx="50" cy="50" r="46" fill="none" stroke="#C89736" stroke-width="3"/>
+                <text x="35" y="62" font-family="'Playfair Display', serif" font-weight="700" font-size="42" fill="#C89736">E</text>
+                <text x="52" y="66" font-family="'Playfair Display', serif" font-weight="700" font-size="42" fill="#FFFFFF">P</text>
+              </svg>
+            </div>
+            <div class="logo-text-group">
+              <span class="brand-title light">EMIRATES PREMIUM</span>
+              <span class="brand-subtitle light">INTERNATIONAL CARGO HUB • CHINA • AFRICA</span>
+            </div>
+          </a>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">HUB CHINE — GUANGZHOU</h4>
+          <p class="footer-address">B6-09 & B6-11, Jufu International Logistics Park, Guangzhou</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">CAMEROUN — YAOUNDÉ</h4>
+          <p class="footer-contact-item"><a href="tel:+237641196871" class="phone-link">+237 6 41 19 68 71</a></p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">CAMEROUN — DOUALA</h4>
+          <p class="footer-contact-item"><a href="tel:+237690937024" class="phone-link">+237 6 90 93 70 24</a></p>
+        </div>
+        <div class="footer-col footer-route-col">
+          <div class="footer-route-pill">
+            <strong>CHINE → CAMEROUN</strong><br><span class="sub">→ AFRIQUE CENTRALE</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright">© 2025 Emirates Premium. Tous droits réservés.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <div class="floating-whatsapp-wrap">
+    <a href="https://wa.me/8613249700362" target="_blank" class="btn-whatsapp-circle" aria-label="WhatsApp">
+      <svg viewBox="0 0 100 100" width="38" height="38"><path d="M50 14C30.1 14 14 30.1 14 50c0 6.3 1.6 12.3 4.7 17.6L14 86l18.9-4.6C38 84.3 43.9 86 50 86c19.9 0 36-16.1 36-36S69.9 14 50 14zm0 65.7c-5.4 0-10.7-1.4-15.3-4.1l-1.1-.6-11.4 2.8 3-11.1-.7-1.1C21.6 60.9 20 55.6 20 50c0-16.5 13.5-30 30-30s30 13.5 30 30-13.5 29.7-30 29.7zm16.5-22.3c-.9-.4-5.3-2.6-6.1-2.9-.8-.3-1.4-.4-2 .4-.6.9-2.3 2.9-2.8 3.5-.5.6-1 .7-1.9.2-3.9-1.9-6.5-3.4-9.1-7.9-.7-1.2.7-1.1 1.9-3.5.2-.4.1-.8-.1-1.2-.2-.4-2-4.8-2.7-6.6-.7-1.7-1.4-1.5-2-1.5h-1.7c-.6 0-1.6.2-2.4 1.1-.8.9-3.2 3.1-3.2 7.6s3.3 8.8 3.7 9.4c.5.6 6.4 9.8 15.6 13.8 6.9 3 8.3 2.4 9.8 2.3 1.5-.1 5.3-2.2 6.1-4.3.7-2.1.7-3.9.5-4.3-.3-.4-.9-.6-1.8-1.1z" fill="#FFFFFF"/></svg>
+    </a>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
